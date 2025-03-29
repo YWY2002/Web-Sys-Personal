@@ -1,0 +1,159 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8eedb;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#bookingDetails {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.room-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: #fff;
+    margin:0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    width: 80pc;
+    overflow: hidden;
+  }
+  
+  .room-card {
+    width: 500px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+
+  .room-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 5pc 40px;
+    grid-template-columns: 1fr 1fr;
+}
+
+  .button-container {
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    height: auto;
+    letter-spacing: 2.1px;
+    line-height: 1;
+    min-width: auto;
+    padding: 9pt 20px 10px;
+    position: relative !important;
+    text-indent: unset;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    width: auto;
+
+  }
+
+  .button-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .room-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .room-image {
+    width: 100%;
+    height: 333px;
+    display: block;
+  }
+  
+  .room-info {
+    padding: 20px 25px;
+  }
+  
+  .room-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+  }
+  
+  .room-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .room-subtitle .light {
+    color: #bbb;
+  }
+  
+  .room-desc {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .room-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .room-details li {
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    color: #444;
+  }
+
+  .room-intropic img {
+    width: 100%;
+    height: 50vh;  /* Adjust this value to control image height */
+    object-fit: cover;
+  }
+
+  .room-introtitle {
+    font-weight: bold;
+    text-align: center;
+  }
+  
