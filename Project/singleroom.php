@@ -16,16 +16,36 @@
         <img src="assets/images/Singleroom/Singleroom.jpg" alt="Single Room">
         </div>
         <h1 class="room-introtitle">STANDARD SINGLE ROOM</h1>
-        <section class="room-details">
-            <h2>Room Details</h2>
-            <p>Welcome to our cozy single room, perfect for solo travelers. Enjoy a comfortable stay with all the amenities you need.</p>
-            <ul>
-                <li>Bed: Single</li>
-                <li>Free Wi-Fi</li>
-                <li>Air Conditioning</li>
-                <li>Flat-screen TV</li>
-                <li>Private Bathroom</li>
-            </ul>
+        <section class="room-intro">
+            <p>Our Standard Single Room offers a comfortable and cozy retreat for solo travelers. 
+                Featuring a single bed, work desk, flat-screen TV, and free Wi-Fi, 
+                it’s designed to meet your needs whether you're here for business or leisure. 
+                Enjoy modern amenities like a mini-fridge, in-room safe, and a private bathroom with essential toiletries. 
+                With simple, inviting decor and all the essentials, it's the perfect space to relax and recharge during your stay.
+            </p>
+            <a href="booking.php">
+                <button class="booknow" href="booking.php">BOOK NOW</button>
+            </a>
+
+
+            <div class="splide__track">
+                <div class="splide__slides">
+                    <ul>
+                        <li class="splide__list">
+                        <img src="assets/images/Singleroom/Singleroom.jpg" alt="Single Room">
+                        </li>
+                        <li class="splide__list">
+                            <img src="assets/images/Singleroom/Singleroom2.jpg" alt="Single Room">
+                        </li>
+                        <li class="splide__list">
+                            <img src="assets/images/Singleroom/Singleroombath.jpg" alt="Single Room">
+                        </li>
+                        <li>Flat-screen TV</li>
+                        <li>Private Bathroom</li>
+                    </ul>
+                </div>
+            </div>
+
         </section>
 
         <section class="booking">

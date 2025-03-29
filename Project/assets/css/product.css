@@ -28,17 +28,6 @@ input, select, button {
     border: 1px solid #ddd;
 }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-    border: none;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
 #bookingDetails {
     margin-top: 20px;
     font-size: 16px;
@@ -140,20 +129,141 @@ button:hover {
     margin: 0;
   }
   
-  .room-details li {
-    font-size: 0.95rem;
-    margin-bottom: 5px;
-    color: #444;
-  }
-
+  
   .room-intropic img {
     width: 100%;
     height: 50vh;  /* Adjust this value to control image height */
     object-fit: cover;
   }
-
+  
   .room-introtitle {
     font-weight: bold;
     text-align: center;
+    margin: 50px;
   }
   
+  .room-intro {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #444;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+  .booknow {
+    margin: 50px;
+    height: 75px;
+    width: 200px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .booknow:hover {
+    background-color: #dde0e2;
+  }
+
+  .booking-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .calendar {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .day {
+    padding: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+    cursor: pointer;
+  }
+  
+  .day:hover {
+    background-color: #ddd;
+  }
+  
+  .room-guest-info {
+    flex: 1;
+  }
+  
+  .guests {
+    display: flex;
+    align-items: center;
+  }
+  
+  .guest-btn {
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .book-now button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-now button:hover {
+    background-color: #0056b3;
+  }
+
+  
+  
+  
+  /* .splide__track {
+    width: 100%;
+    position: relative;
+  }
+  
+  .splide__slides {
+    display: flex;
+    animation: loop 10s linear infinite;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .splide__list {
+    backface-visibility: hidden;
+    display: flex;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex: 0 0 100%;  
+    text-align: center;
+    padding: 20px;
+  }
+
+  @keyframes loop {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } 
+  */

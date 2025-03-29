@@ -15,7 +15,7 @@
                     <a class="nav-link" href="../product.php">Rooms</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Booking/booking.php">Booking</a>
+                    <a class="nav-link" href="../booking.php">Booking</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="dropdown-toggle nav-link" role="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
