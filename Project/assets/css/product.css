@@ -60,7 +60,7 @@ input, select, button {
     list-style-type: none;
     padding: 0;
     display: grid;
-    gap: 5pc 40px;
+    gap: 10pc 100px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -72,7 +72,7 @@ input, select, button {
     letter-spacing: 2.1px;
     line-height: 1;
     min-width: auto;
-    padding: 9pt 20px 10px;
+    padding: 12pt 2px 5px;
     position: relative !important;
     text-indent: unset;
     text-transform: uppercase;
@@ -104,6 +104,7 @@ input, select, button {
     font-size: 1.5rem;
     margin-bottom: 8px;
     letter-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
   }
   
   .room-subtitle {
@@ -117,6 +118,7 @@ input, select, button {
   }
   
   .room-desc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
     color: #333;
     margin-bottom: 20px;
@@ -124,6 +126,7 @@ input, select, button {
   }
   
   .room-details {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -137,13 +140,13 @@ input, select, button {
   }
   
   .room-introtitle {
-    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 50px;
   }
   
   .room-intro {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 5px;
     color: #444;
     text-align: center;

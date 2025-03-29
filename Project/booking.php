@@ -6,6 +6,7 @@
     <title>SIT Hotel</title>
         <?php
             include "inc/head.inc.php";
+            session_start();
         ?>
     <link rel="stylesheet" href="assets/css/product.css"> 
     <script src="assets/js/product.js"></script>
@@ -21,36 +22,57 @@
         <section class="booking">
             <div class="room-guest-info">
                 <h2>No. of Rooms & Guests</h2>
-                <label>Room 1</label>
-                <div class="guests">
-                    <label>Adults</label>
-                    <button class="guest-btn" onclick="adjustGuests('adult', -1)">-</button>
-                    <span id="adult-count">1</span>
-                    <button class="guest-btn" onclick="adjustGuests('adult', 1)">+</button>
-                </div>
-                <div class="guests">
-                    <label>Children (0-12 years)</label>
-                    <button class="guest-btn" onclick="adjustGuests('child', -1)">-</button>
-                    <span id="child-count">0</span>
-                    <button class="guest-btn" onclick="adjustGuests('child', 1)">+</button>
-                </div>
-
-                <form action="booking.php" method="post">
+                
+                <form action="process_booking.php" method="post">
+                    <div class="roomtype">
+                        <label for="roomType">Select Room Type:</label>
+                        <select id="roomType" name="roomType">
+                            <option value="single">Standard Single Room</option>
+                            <option value="twin">Standard Twin Room</option>
+                            <option value="deluxetwin">Deluxe Twin Room</option>
+                            <option value="deluxecorner">Deluxe Corner Double Room</option>
+                            <option value="jsuite">Junior Suite Double Room</option>
+                            <option value="gsuite">Grand Suite Room</option>
+                        </select>
+                    </div>
+    
+                    <div class="rooms">
+                        <label for="numberRoom">Select Number of Room:</label>
+                        <select id="numberRoom" name="numberRoom">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+    
+                    <div class="guests">
+                        <label>Adults</label>
+                        <button class="guest-btn" onclick="adjustGuests('adult', -1)">-</button>
+                        <span id="adult-count">1</span>
+                        <button class="guest-btn" onclick="adjustGuests('adult', 1)">+</button>
+                    </div>
+                    <div class="guests">
+                        <label>Children (0-12 years)</label>
+                        <button class="guest-btn" onclick="adjustGuests('child', -1)">-</button>
+                        <span id="child-count">0</span>
+                        <button class="guest-btn" onclick="adjustGuests('child', 1)">+</button>
+                    </div>
                     <label for="checkin">Check-in Date:</label>
                     <input type="date" id="checkin" name="checkin" required>
 
                     <label for="checkout">Check-out Date:</label>
                     <input type="date" id="checkout" name="checkout" required>
 
-                    <label for="guests">Number of Guests:</label>
-                    <input type="number" id="guests" name="guests" min="1" max="1" required>
+                    <div class="book-now">
+                        <button onclick="checkAvailability()">Check Availability</button>
+                        <p id="availabilityMessage" style="display:none;"></p>
+                    </div>
 
-                    <button type="submit">Book Now</button>
+                    <!-- <button type="submit">Book Now</button> -->
                 </form>
 
-                <div class="book-now">
-                    <button onclick="checkAvailability()">Check Availability</button>
-                </div>
+
             </div>
             
         </section>

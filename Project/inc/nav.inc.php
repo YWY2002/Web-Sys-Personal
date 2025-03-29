@@ -22,8 +22,8 @@
                         Experiences
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="#">Dining</a></li>
-                        <li><a class="dropdown-item" href="#">Meetings / Weddings</a></li>
+                        <li><a class="dropdown-item" href="../dining.php">Dining</a></li>
+                        <li><a class="dropdown-item" href="../functions.php">Functions</a></li>
                         <li><a class="dropdown-item" href="../tourist.php">Around Us</a></li>
                     </ul>
                 </li>
@@ -43,10 +43,6 @@
                 <li class="nav-item ">
                     <a class="nav-link" href="../register.php"><i class="bi bi-person-circle"></i></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../login.php"><i class="bi bi-box-arrow-in-right"></i></a>
-                </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="../login.php"><i class="bi bi-box-arrow-in-right"></i></a>
                 </li>

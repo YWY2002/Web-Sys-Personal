@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="assets/css/product.css"> 
 </head>
 <body>
+        <?php
+            include "inc/nav.inc.php";
+        ?>
     
     <main>
         <div class="room-intropic">

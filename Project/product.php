@@ -13,13 +13,13 @@
         <?php
             include "inc/nav.inc.php";
         ?>
-    <header>
-        <h1>Header</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Header 2</h2>
-            <p>Description</p>
+        <main>
+            <section>
+            <h1 class="room-introtitle">OUR ROOMS</h1>
+
+            <p class="room-intro">Our hotel offers a wide range of rooms designed to cater to your needs, 
+                whether you are here for business, leisure, or a special event. Each room is meticulously designed with comfort and convenience in mind, 
+                offering a relaxing and inviting atmosphere.</p>
             <div class="room-container">
                 <ul class="room-list">
                     <li class="room-card">
