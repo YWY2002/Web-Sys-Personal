@@ -33,23 +33,98 @@ input, select, button {
     font-size: 16px;
 }
 
+.function-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(0deg, #cdcdff, #f3f4ff);
+  margin:0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+}
+
+.function-card {
+display: flex;
+width: 1200px;
+background-color: #fff6e2;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+overflow: hidden;
+transition: transform 0.3s ease;
+}
+
+.function-card img {
+flex: 1;
+max-width: 40%;
+}
+
+.function-info {
+padding: 20px 25px;
+}
+
+.function-list {
+padding: 0;
+display: grid;
+gap: 100px;
+}
+
+.dining-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(0deg, #ffbe89, #ffdec4);
+    margin:0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.dining-card {
+  display: flex;
+  width: 1200px;
+  background-color: #fff6e2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.dining-card img {
+  flex: 1;
+  width: 500px;
+}
+
+.dining-info {
+  padding: 20px 25px;
+}
+
+.dining-list {
+  padding: 0;
+  display: grid;
+  gap: 100px;
+}
+
 .room-container {
     display: flex;
     justify-content: center;
     gap: 40px;
     padding: 40px;
     font-family: 'Helvetica Neue', sans-serif;
-    background: #fff;
+    background: linear-gradient(0deg, #f8df98, #f3e3b7);
     margin:0 auto;
     padding-left: 0;
     padding-right: 0;
-    width: 80pc;
     overflow: hidden;
   }
   
   .room-card {
     width: 500px;
-    background-color: #fdfdfd;
+    background-color: #fff6e2;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     overflow: hidden;
@@ -172,6 +247,8 @@ input, select, button {
   .booknow:hover {
     background-color: #dde0e2;
   }
+
+
 
   .booking-container {
     display: flex;
